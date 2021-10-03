@@ -50,7 +50,7 @@ if (name === 'Mary') {
 // We declared a variable called "name" and assigned it the value 'Dane'.
 // Then we ran a conditional statement to verify the exact value of the variable "let name"
 // We use the condtional (===) in the "if" statement to test the code.
-// To test if the code is true we ran the "if" statement and console.log( 'Hi, Mary').
+// To test if the code is true, we ran the "if" statement and console.log( 'Hi, Mary').
 // To test if the code is false, we ran the "else" statement and console.log( 'How do you do?').
 // In this case, the conditional statement is false, console.log('How do you do?').
 // The value of the variable 'let name' is 'Dane not Mary'. It remains unchanged or until it is assigned the value 'Mary'.
@@ -75,10 +75,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We declared the variable 'let secret', but we did not assigned it a value.
+// We declared the varibale 'let code', and we assigned it a value 123.
+// We ran two conditional statements to test if the statements is true.
+// In the first "if" statement, we check if the statement "if(code === 123)" is True and an exact match.
+// with conditions "secret = 'super'; code = code * 2;"
+// In the second statement, we check if the statement "if (code > 250) {  secret = 'duper' }" is True.
+// We console.log( secret ) to test which of these statements are True.
+// Based on the result of the code, we concluded "if(code === 123)" is True.
+// Becasue console.log( secret ), resulted in 'super'.
 
 //CODE
 /*
@@ -97,6 +102,10 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
+// We declared the variables 'let isStudent', 'let age', and let zip, and assigned them all a value.
+// We ran three conditionals statements to test if the statements are true.
+// Of the three statemens, 'else if (isStudent === true) { console.log('Welcome to Prime!'); }' is True.
+// When we ran the code, it resulted in console.log( ' Welcome to Prime! ').
 
 
 
@@ -120,6 +129,7 @@ let number = 1;
 
 // FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
+
 number--;
 
 if (number >= 2) {
@@ -135,12 +145,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - Should be: let colorOne = 'blue';
 let colorOne = 'red';
+
+// FIX - Should be: let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - should be: colorOne = 'purple'; let colorTwo = 'purple';
 }
 */
 
@@ -150,8 +164,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - Should be: let time = 4; This is a variable not a constant.
 const time = 4;
 
+// FIX - should be && instead of ||, becasue || means "or" not "and", both are compound conditionals.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -165,8 +181,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - should be: if(age >= minAge)
 if(minAge <= age) {
+// FIX - should be: console.log( 'enter' );
   console.log('no entry');
+
+// FIX - should be deleted.
 } else {
   console.log('enter');
 }
